@@ -7,7 +7,7 @@ from pyperclip import copy
 class Window(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("BANANAAAAAAAAAAAAAA")
+        self.setWindowTitle("Minesweeper About Me")
         self.setWindowIcon(QIcon("banan.jpg"))
         self.setGeometry(500,300,400,300)
 
